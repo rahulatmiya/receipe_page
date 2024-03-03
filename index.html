@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .containers {
+      background-color: #ede4d5;
+    }
+
+    .containers>div {
+      background-color: white;
+      margin-left: 200px;
+      border-radius: 10px;
+      width: 50%;
+      padding-bottom: 20px;
+    }
+
+    img {
+      border-radius: 5%;
+      width: 65%;
+      height: 250px;
+      position: relative;
+      left: 130px;
+    }
+
+    .title {
+      background-color: white;
+      font-size: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    hr {
+      width: 69%;
+    }
+
+    .preparation {
+      height: 190px;
+      width: 90%;
+      background-color: rgb(242, 233, 234);
+      border-radius: 8px;
+      margin-left: 40px;
+    }
+
+    h4 {
+      font-weight: bold;
+      font-size: 20px;
+      padding: 10px 30px;
+    }
+
+    li {
+      margin-top: 15px;
+      padding-left: 18px;
+    }
+
+    h2 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      margin-left: 40px;
+      color: coral;
+    }
+
+    th {
+      font-size: 14px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left: 150px;
+      border-collapse: collapse;
+      color: coral;
+    }
+
+    p {
+      font-family: serif;
+      font-size: 17px;
+      margin-left: 42px;
+      padding-top: 2px;
+    }
+
+    @media screen and (max-width: 375px) {
+      img {
+        border-radius: 5%;
+      width: 100%;
+      height: 250px;
+      
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="containers">
+    <div>
+      <img src="./assets/images/image-omelette.jpeg">
+      <h3 class="title">
+        Simple Omelette Recipe
+        <hr>
+      </h3>
+
+      <div class="preparation">
+
+        <h4>Preparation time</h4>
+        <ul style="margin-left:6%;">
+          <li><b>Total:</b>Approximately 10 minutes</li>
+          <li><b>Preparation:</b>5 minutes</li>
+          <li><b>Cooking:</b>5 minutes</li>
+        </ul>
+      </div>
+      <h2>
+        Ingredients</h2>
+      <ul style="margin-left: 10%; ">
+        <li>2-3 large eggs</li>
+        <li>Salt, to taste</li>
+        <li>Pepper, to taste</li>
+        <li>1 tablespoon of butter or oil</li>
+        <li>Optional fillings:cheese,diced vegetables,cooked meats,herbs</li>
+      </ul>
+      <hr style="width: 80%;">
+      <h2>
+        Instructions</h2>
+      <ol style="font-size: medium; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 30px;">
+        <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of
+          salt and pepper until they are well mixed.
+          You can add a tablespoon of water or milk for a fluffier texture.</li>
+        <Li><b>Heat the pan:</b> Place a non-stick frying pan over medium
+          heat and add butter or oil.
+        </Li>
+        <li><b>Cook the omelette:</b> Once the butter is melted and
+          bubbling, pour in the eggs. Tilt the pan to ensure
+          the eggs evenly coat the surface.</li>
+        <Li>
+          <b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the
+          middle, sprinkle your chosen fillings over one half of the omelette.
+        </Li>
+        <li><b>Fold and serve:</b>
+          As the omelette continues to cook, carefully lift one edge and fold it over the
+          fillings. Let it cook for another minute, then slide it onto a plate.</li>
+        <li><b>Enjoy:</b>
+          Serve hot, with additional salt and pepper if needed.</li>
+      </ol>
+      <hr style="width:80%">
+      <h2>
+        Nutrition</h2>
+      <p>The table below shows
+        nutritional values per serving without the additional fillings.</p>
+      <table>
+        <tr>
+          <th>Calories</th>
+          <th>277kcal</th>
+
+        </tr>
+
+        <tr>
+          <th>Carbs</th>
+          <th>0g</th>
+
+        </tr>
+
+        <tr>
+          <th>Protein</th>
+          <th>20g</th>
+
+        </tr>
+
+        <tr>
+          <th>Fat</th>
+          <th>22g</th>
+
+        </tr>
+
+
+      </table>
+    </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">ryadar</a>.
+  </div>
+</body>
+
+</html>
